@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+#carta{
+    padding: 5px;
+    padding-left: 15px;
+    height: 85%;
+    width: 65%;
+    background-color: white;
+}
+
+#paragrafos{
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    text-align: justify;
+}

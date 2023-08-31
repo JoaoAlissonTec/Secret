@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #00FA07;
+    font-family: 'Source Code Pro', monospace;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+input[type="text"]{
+    color: #00FA07;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #00FA07;
+}
+
+input[type="button"]{
+    background-color: transparent;
+    border: none;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+}
