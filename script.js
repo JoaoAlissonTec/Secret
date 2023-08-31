@@ -1,6 +1,9 @@
 let senha = document.getElementById('senha');
 function validar(){
     if(senha.value == "01000101 01010101 00100000 01010100 01000101 00100000 01000001 01001101 01001111 00101100 00100000 01001001 01010011 01000001 01000010 01000101 01001100 01001100 01000101 00101100 00100000 01001101 01000101 01010101 00100000 01000001 01001101 01001111 01010010"){
-        window.open('tela2/tela02.html', '_blank');
+        window.open('tela2/tela02.html', '_self');
+    }else{
+        senha.value = "";
+        console.log("Erro")
     }
 }
